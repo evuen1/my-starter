@@ -16,22 +16,9 @@
 // - standard styles for commonly elements
 @import "./base/base";
 @import "./base/helpers";
-@import "./base/fonts";
 @import "./base/typography";
-
-// Components
-// - for small, reusable pieces
-@import "./components/buttons";
 
 // Layout
 // - everything that takes part in laying out the site/application
 @import "./layout/header";
 @import "./layout/footer";
-
-// Pages
-// - page-specific styles
-@import "./pages/home";
-
-// Themes
-// - for different aspects
-@import "./themes/default";
