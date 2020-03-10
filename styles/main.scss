@@ -1,0 +1,36 @@
+// ========================================================================
+// base styles ' ./base/ '
+
+@include './base/_variables.scss';
+@include './base/_mixins.scss';
+@include './base/_reboot.scss';
+@include './base/_grid.scss';
+@include './base/_fonts.scss';
+@include './base/_general.scss';
+
+// 
+// ========================================================================
+// #
+// #
+// #
+// #
+// ========================================================================
+// vendor styles ' ./vendor/ '
+
+@include './vendor/_libs.scss';
+
+// 
+// ========================================================================
+// #
+// #
+// #
+// #
+// ========================================================================
+// components ' ./components/ '
+
+@include './components/_header.scss';
+@include './components/_footer.scss';
+@include './components/_content.scss';
+
+// 
+// ========================================================================
