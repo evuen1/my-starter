@@ -1,2 +1,2 @@
-# html-starter-webpack-scss
+# my-starter
  
