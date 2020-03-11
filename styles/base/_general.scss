@@ -1,20 +1,11 @@
-*{
-    outline: 0.5px solid red;
+* {
+    outline: 0.1vh solid rgba(255, 0, 0, 0.07);
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    height: -webkit-fill-available;
-}
-
-header main {
+main {
     flex: 1 0 auto;
-}
 
-main{
-    section{
+    section {
         margin: 20px 0;
     }
 }
@@ -27,30 +18,16 @@ footer {
     bottom: 0;
 }
 
-h1{
+h1 {}
 
-}
+h2 {}
 
-h2{
+h3 {}
 
-}
+h4 {}
 
-h3{
+h5 {}
 
-}
+p {}
 
-h4{
-
-}
-
-h5{
-
-}
-
-p{
-
-}
-
-ul{
-    
-}
+ul {}
