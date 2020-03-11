@@ -1,36 +1,34 @@
 // ========================================================================
-// base styles ' ./base/ '
+// base styles " base/ "
 
-@include './base/_variables.scss';
-@include './base/_mixins.scss';
-@include './base/_reboot.scss';
-@include './base/_grid.scss';
-@include './base/_fonts.scss';
-@include './base/_general.scss';
-
-// 
-// ========================================================================
-// #
-// #
-// #
-// #
-// ========================================================================
-// vendor styles ' ./vendor/ '
-
-@include './vendor/_libs.scss';
+@import "base/_variables.scss";
+@import "base/_mixins.scss";
+@import "base/_reboot.scss";
+@import "base/_grid.scss";
+@import "base/_fonts.scss";
+@import "base/_general.scss";
 
 // 
 // ========================================================================
 // #
 // #
 // #
+// ========================================================================
+// vendor styles " vendor/ "
+
+@import "vendor/_libs.scss";
+
+// 
+// ========================================================================
+// #
+// #
 // #
 // ========================================================================
-// components ' ./components/ '
+// components " components/ "
 
-@include './components/_header.scss';
-@include './components/_footer.scss';
-@include './components/_content.scss';
+@import "components/_header.scss";
+@import "components/_footer.scss";
+@import "components/_content.scss";
 
 // 
 // ========================================================================
